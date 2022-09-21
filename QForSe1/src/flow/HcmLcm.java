@@ -1,0 +1,29 @@
+package flow;
+
+import java.util.Scanner;
+
+public class HcmLcm {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("enter 2 number");
+		int num1=sc.nextInt();
+		int num2=sc.nextInt();
+		int k=num1*num2;
+		
+		while(num2 !=0) {
+			int letm=num2;
+			num2=num1%num2;
+			num1=letm;
+		}
+		
+			int hcf = num1;
+	      int lcm = k/hcf;
+
+	      System.out.println("HCF of input numbers: "+hcf);
+	      System.out.println("LCM of input numbers: "+lcm);
+
+	}
+
+}
