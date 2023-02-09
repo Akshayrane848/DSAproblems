@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+F:\das prac\collection\.metadata\.plugins\org.eclipse.jdt.core
+279597829.index
+115667787.index
+1865797976.index

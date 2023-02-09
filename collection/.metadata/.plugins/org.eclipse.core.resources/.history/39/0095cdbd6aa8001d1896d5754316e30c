@@ -1,0 +1,6 @@
+package collection;
+
+public class Address {
+	private String name;
+	private String state;
+}
