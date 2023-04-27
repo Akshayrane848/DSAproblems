@@ -1,6 +1,0 @@
-package collection;
-
-public class Address {
-	private int room;
-	private String state;
-}

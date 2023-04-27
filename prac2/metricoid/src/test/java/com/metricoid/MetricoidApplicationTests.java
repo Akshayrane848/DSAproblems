@@ -1,0 +1,13 @@
+package com.metricoid;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class MetricoidApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
